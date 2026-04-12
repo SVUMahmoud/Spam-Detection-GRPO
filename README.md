@@ -61,10 +61,9 @@ This framework does **not** use a trained neural reward model. Instead, two dete
 | LoRA Rank | 64 |
 | LoRA Alpha | 64 |
 | Learning Rate | 5e-6 |
-| Quantization | 4-bit
+| Quantization | 4-bit |
 | LR Scheduler | Cosine |
 | Warmup Ratio | 0.1 |
-| Batch Size | 8 |
 | Optimizer | AdamW 8-bit |
 | Adam β₁ / β₂ | 0.9 / 0.99 |
 | Weight Decay | 0.1 |
