@@ -1,0 +1,13 @@
+unsloth
+vllm
+transformers==4.56.2
+trl==0.22.2
+torch
+datasets
+pandas
+scikit-learn
+matplotlib
+seaborn
+numpy
+bitsandbytes
+xformers
