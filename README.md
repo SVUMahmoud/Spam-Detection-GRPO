@@ -138,11 +138,11 @@ All experiments were conducted on Google Colab with the following hardware:
 If you find this work useful, please cite:
 
 ```bibtex
-@article{ali2025spam_grpo,
+@article{ali2026spam_grpo,
   title={Binary Spam Detection Using GRPO and LoRA on Qwen 2.5-3B-Instruct},
   author={Ali, Mahmoud E. and Diwan, Anjali and Jadeja, Rajendrasinh},
   journal={Arabian Journal for Science and Engineering},
-  year={2025},
+  year={2026},
   note={Under Review}
 }
 ```
