@@ -1,24 +1,28 @@
-# Pinned versions matching the paper's experimental environment (March 2025)
-# Install on Google Colab with T4 GPU for exact reproducibility
-unsloth
-unsloth_zoo
-cut_cross_entropy
-trl==0.15.2
-transformers>=4.49.0,<=4.50.0
-vllm==0.8.2
+# Binary Spam Detection Using GRPO and LoRA on Qwen 2.5-3B-Instruct
+# Tested on Google Colab (Tesla T4, 15 GB VRAM)
+#
+# To install on Colab, use the install cell in the notebook.
+# For local installation:
+#   pip install -r requirements.txt
+
 torch==2.6.0
-triton==3.2.0
+unsloth==2025.3.19
+unsloth_zoo==2025.3.17
+trl==0.15.2
+transformers==4.50.0
+accelerate==1.5.2
+vllm==0.8.2
 xformers==0.0.29.post3
-bitsandbytes
-accelerate
 peft
+bitsandbytes
+triton==3.2.0
 datasets
-pandas
-scikit-learn
-matplotlib
-seaborn
-numpy
 sentencepiece
 protobuf
 huggingface_hub
 hf_transfer
+scikit-learn
+matplotlib
+seaborn
+pandas
+numpy
