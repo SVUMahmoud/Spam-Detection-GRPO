@@ -1,13 +1,24 @@
+# Pinned versions matching the paper's experimental environment (March 2025)
+# Install on Google Colab with T4 GPU for exact reproducibility
 unsloth
-vllm
-transformers==4.56.2
-trl==0.22.2
-torch
+unsloth_zoo
+cut_cross_entropy
+trl==0.15.2
+transformers>=4.49.0,<=4.50.0
+vllm==0.8.2
+torch==2.6.0
+triton==3.2.0
+xformers==0.0.29.post3
+bitsandbytes
+accelerate
+peft
 datasets
 pandas
 scikit-learn
 matplotlib
 seaborn
 numpy
-bitsandbytes
-xformers
+sentencepiece
+protobuf
+huggingface_hub
+hf_transfer
