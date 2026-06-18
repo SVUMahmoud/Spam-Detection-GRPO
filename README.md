@@ -117,12 +117,13 @@ Pretrained model weights (LoRA adapters) are **not** included in this repository
 If you find this work useful, please cite:
 
 ```bibtex
-@article{ali2026spam,
-  title={Binary Spam Detection Using GRPO and LoRA on Qwen 2.5-3B-Instruct},
+@article{Ali2026,
   author={Ali, Mahmoud E. and Diwan, Anjali and Jadeja, Rajendrasinh},
-  journal={Arabian Journal for Science and Engineering},
-  year={2026},
-  note={Under Review}
+  title   = {Binary Spam Detection Using GRPO and LoRA on Qwen 2.5-3B-Instruct},
+  journal = {Arabian Journal for Science and Engineering},
+  year    = {2026},
+  doi     = {10.1007/s13369-026-11412-w},
+  issn    = {2191-4281},
 }
 ```
 
